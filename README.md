@@ -1,3 +1,3 @@
 # Aulas_WEB
 
-Este repositório contem conceitos básicos de HTML
+Este repositório contêm conceitos básicos de HTML
