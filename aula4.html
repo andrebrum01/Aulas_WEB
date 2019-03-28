@@ -1,0 +1,40 @@
+﻿<html>
+<head><title>Formulario</title></head>
+<body>
+<form>
+<h1>Formulário</h1>
+<fieldset>
+<legend>Login</legend>
+<p><label for="login">Email:</label>
+<br><input type="text" id="login" name="login"><br></p>
+<p><label for="password">Senha:</label>
+<br><input type="password" id="password" name="password"><br></p>
+</fieldset><br><br>
+<fieldset>
+<legend>Informações</legend>
+<p><label for="firstname">Primeiro Nome:</label>
+<br><input type="text" id="firstname" name="firstname"><br></p>
+<p><label for="lastname">Último Nome:</label>
+<br><input type="text" id="lastname" name="lastname"><br></p>
+<input type="radio" name="sex" value="male">Masculino<br>
+<input type="radio" name="sex" value="female">Feminino<br><br>
+<label for="Instrumento">Escolha seu tamanho de blusa</label>
+<select id="tamanho" name="tamanho">
+<option value="sem">Selecione...</option>
+<optgroup label="Normais">
+<option value="p">p</option>
+<option value="m">m</option>
+<option value="g">g</option></optgroup>
+<optgroup label="Diferentes">
+<option value="xg">xg</option>
+<option value="xxg">xxg</option>
+<option value="xxxg">xxxg</option>
+</optgroup>
+
+</select><br><br>
+<input type="checkbox" name="cat">Eu tenho gato<br>
+<input type="checkbox" name="dog">Eu tenho cachorro<br>
+<p>Descreva:<br>
+<textarea rows="10" cols="30">O gato está brincando no jardim</textarea></fieldset>
+</form>
+</body></html>
